@@ -39,4 +39,81 @@ State digunakan untuk mengatur kondisi seperti status Open to Work, form input, 
 Setiap perubahan state akan menyebabkan komponen melakukan re-render
 ✅ Checkpoint: Aplikasi masih menampilkan teks, tidak ada error
 
-### Lanjutkan sampai selesai ###
+![alt text](<mobile-iPhone_17_Pro_Max (1).png>)
+
+### angkah 6 : ScrollView & Profil Section ###
+1. Menggunakan ScrollView untuk membuat seluruh isi CV dapat digulir
+2. Menampilkan foto profil menggunakan komponen gambar
+3. Menampilkan informasi profil seperti nama, jabatan, dan bio
+4. Menambahkan tombol media sosial menggunakan komponen interaksi pengguna.
+✅ Checkpoint: Foto profil, nama, jabatan, bio, dan tombol sosmed terlihat
+
+![alt text](<mobile-iPhone_17_Pro_Max (2).png>)
+
+### Langkah 7 : FlatList — Daftar Skills ###
+1. Menampilkan data skills menggunakan komponen FlatList
+2. FlatList digunakan untuk menampilkan data dalam bentuk daftar secara lebih efisien
+3. Data yang ditampilkan berasal dari array objek SKILLS
+4. Setiap skill ditampilkan dalam bentuk card yang memiliki progress bar sesuai persentase kemampuan
+
+![alt text](image-6.png)
+
+✅ Checkpoint: Daftar skill dengan progress bar berwarna-warni terlihat
+
+
+### Langkah 8 : SectionList — Pengalaman & Pendidikan ###
+1. Menampilkan data pengalaman dan pendidikan menggunakan SectionList
+2. Data dikelompokkan berdasarkan kategori atau section
+3. Section digunakan untuk memisahkan bagian pengalaman kerja/organisasi dan riwayat pendidikan
+4. Setiap data ditampilkan menggunakan TimelineCard
+
+![alt text](image-7.png)
+
+✅ Checkpoint: Daftar pengalaman kerja & pendidikan terkelompok terlihat
+
+### Langkah 8 : SectionList — Pengalaman & Pendidikan ###
+1. Menampilkan data pengalaman dan pendidikan menggunakan SectionList
+2. Data dikelompokkan berdasarkan kategori atau section
+3. Section digunakan untuk memisahkan bagian pengalaman kerja/organisasi dan riwayat pendidikan
+4. Setiap data ditampilkan menggunakan TimelineCard
+
+-- Pengalaman Kerja
+![alt text](image-8.png)
+
+-- Pendidikan
+![alt text](image-9.png)
+✅ Checkpoint: Daftar pengalaman kerja & pendidikan terkelompok terlihat
+
+### Langkah 9 : TextInput, Button & ActivityIndicator ###
+1. Membuat form kontak menggunakan TextInput untuk menerima input dari pengguna
+2. Menggunakan Button sebagai tombol untuk mengirim pesan
+3. Menggunakan ActivityIndicator sebagai indikator ketika proses pengiriman sedang berlangsung
+4. Input nama dan pesan dikontrol menggunakan state
+5. Setelah tombol kirim ditekan, aplikasi menampilkan proses loading kemudian memberikan notifikasi bahwa pesan berhasil dikirim
+
+![alt text](image-10.png)
+✅ Checkpoint: Form input nama & pesan berfungsi. Tekan "Kirim Pesan" → loading 2 detik → Alert sukses
+
+### Langkah 10 : Modal — Popup Detail ###
+1. Menambahkan komponen Modal untuk menampilkan detail riwayat
+2. Modal ditampilkan ketika pengguna menekan kartu riwayat
+3. Modal menggunakan animasi slide sehingga muncul dari bagian bawah layar
+4. Menambahkan tombol Tutup untuk menutup modal
+
+![alt text](image-11.png)
+✅ Checkpoint: Ketuk kartu riwayat → modal muncul dari bawah → tombol Tutup menutup modal
+
+### Langkah 11 : StyleSheet — Styling Terpusat ###
+1. Membuat konstanta warna untuk mengatur palet warna aplikasi
+2. Menggunakan StyleSheet.create() untuk mengatur seluruh tampilan aplikasi secara terpusat
+3. Styling diterapkan pada bagian header, profil, sosial media, section, skill card, timeline card, form input, loading, dan modal
+4. Penggunaan StyleSheet membuat kode styling lebih terorganisir dan mudah dikelola
+
+![alt text](iPhone-14-PRO-localhost.png)
+
+### Langkah 12 : Verifikasi & Pengujian ###
+1. Menjalankan aplikasi untuk memastikan seluruh komponen dan fitur dapat digunakan dengan baik
+2. Melakukan pengujian terhadap tampilan profil, scrolling, switch, daftar skills, riwayat, form kontak, modal, dan tombol sosial media
+3. Hasil pengujian disesuaikan dengan fungsi yang telah dibuat pada aplikasi
+
+![alt text](iPhone-14-PRO-localhost-cepoo0pnqgonyc.gif)
